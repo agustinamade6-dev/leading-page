@@ -1,0 +1,350 @@
+{
+  ".claude/skills/scroll-world/references/knockout.py": {
+    "mtime": 1791695282.1884534,
+    "seen": 1791738467.5567958,
+    "ast_hash": "7ac372ad76c433bba557ae5b11b72d96",
+    "semantic_hash": "7ac372ad76c433bba557ae5b11b72d96"
+  },
+  ".claude/skills/scroll-world/references/scrub-engine.js": {
+    "mtime": 1791695282.450816,
+    "seen": 1791738467.5568016,
+    "ast_hash": "5ffe8828f1cfb3ae93a2ed0d2f46bf3c",
+    "semantic_hash": "5ffe8828f1cfb3ae93a2ed0d2f46bf3c"
+  },
+  "script.js": {
+    "mtime": 1791696479.3090942,
+    "seen": 1791738467.556804,
+    "ast_hash": "2d69472178150cc3a0a14a3983287744",
+    "semantic_hash": "2d69472178150cc3a0a14a3983287744"
+  },
+  "scroll-world.js": {
+    "mtime": 1791696407.561768,
+    "seen": 1791738467.5568054,
+    "ast_hash": "2a3055752f2ce2276d348f87b0af4da9",
+    "semantic_hash": "2a3055752f2ce2276d348f87b0af4da9"
+  },
+  ".claude/skills/landing-page-design/SKILL.md": {
+    "mtime": 1791695282.6163926,
+    "seen": 1791738467.5568068,
+    "ast_hash": "aad422051c673232afbec73364e87f59",
+    "semantic_hash": "aad422051c673232afbec73364e87f59"
+  },
+  ".claude/skills/scroll-world/SKILL.md": {
+    "mtime": 1791695282.0053906,
+    "seen": 1791738467.5568082,
+    "ast_hash": "4e78d5895f7eb9de69ae0ddd787fb1b2",
+    "semantic_hash": "4e78d5895f7eb9de69ae0ddd787fb1b2"
+  },
+  ".claude/skills/scroll-world/references/index-template.html": {
+    "mtime": 1791695282.106138,
+    "seen": 1791738467.5568094,
+    "ast_hash": "ca8b9b4f43fb179833db0fc85a54d9b4",
+    "semantic_hash": "ca8b9b4f43fb179833db0fc85a54d9b4"
+  },
+  ".claude/skills/scroll-world/references/pipeline.md": {
+    "mtime": 1791695282.2902017,
+    "seen": 1791738467.5568104,
+    "ast_hash": "6d3e01eb09bbc99aa35df7bf3592b97b",
+    "semantic_hash": "6d3e01eb09bbc99aa35df7bf3592b97b"
+  },
+  ".claude/skills/scroll-world/references/prompts.md": {
+    "mtime": 1791695282.3734899,
+    "seen": 1791738467.5568118,
+    "ast_hash": "7b434014740712cd0de773b0d586c90d",
+    "semantic_hash": "7b434014740712cd0de773b0d586c90d"
+  },
+  "2026-10-11-024035-crea-una-carpeta-llamada-leading-page.txt": {
+    "mtime": 1791697260.6798038,
+    "seen": 1791738467.556813,
+    "ast_hash": "8cd534fe6b40dc22ee58a02495ddc010",
+    "semantic_hash": "8cd534fe6b40dc22ee58a02495ddc010"
+  },
+  "404.html": {
+    "mtime": 1791695700.3271914,
+    "seen": 1791738467.5568144,
+    "ast_hash": "7ce632f622e96fb22d88b62266d8adc4",
+    "semantic_hash": "7ce632f622e96fb22d88b62266d8adc4"
+  },
+  "CONTEXTO-PARA-CLAUDE.md": {
+    "mtime": 1791696980.227669,
+    "seen": 1791738467.5568159,
+    "ast_hash": "8429aa3d665b89dd91608a4e524e9291",
+    "semantic_hash": "8429aa3d665b89dd91608a4e524e9291"
+  },
+  "PROMPTS-nano-banana.md": {
+    "mtime": 1791688921.423862,
+    "seen": 1791738467.5568168,
+    "ast_hash": "737298ada2cb997e19f358916dee7b12",
+    "semantic_hash": "737298ada2cb997e19f358916dee7b12"
+  },
+  "PROMPTS-video.md": {
+    "mtime": 1791690731.3826916,
+    "seen": 1791738467.5568182,
+    "ast_hash": "c979c406b90da8c26526fa91f5e19918",
+    "semantic_hash": "c979c406b90da8c26526fa91f5e19918"
+  },
+  "index.html": {
+    "mtime": 1791696532.8070948,
+    "seen": 1791738467.5568192,
+    "ast_hash": "d2cf86b249bb02870640789733e22092",
+    "semantic_hash": "d2cf86b249bb02870640789733e22092"
+  },
+  "legal.html": {
+    "mtime": 1791695700.271341,
+    "seen": 1791738467.5568204,
+    "ast_hash": "204e309bd8253638a6eb9b234f40d4b9",
+    "semantic_hash": "204e309bd8253638a6eb9b234f40d4b9"
+  },
+  "img/Barra de grifos.jfif.jpeg": {
+    "mtime": 1791689692.918732,
+    "seen": 1791738467.5568216,
+    "ast_hash": "8b87a9b5c574ac5100ec927ec0b5d3c0",
+    "semantic_hash": "8b87a9b5c574ac5100ec927ec0b5d3c0"
+  },
+  "img/Entrada.jfif.jpeg": {
+    "mtime": 1791689724.7675295,
+    "seen": 1791738467.5568225,
+    "ast_hash": "a69cd0da1668b7809c4adf7e900ddb15",
+    "semantic_hash": "a69cd0da1668b7809c4adf7e900ddb15"
+  },
+  "img/Mesa de Cata.jfif.jpeg": {
+    "mtime": 1791689709.566669,
+    "seen": 1791738467.5568235,
+    "ast_hash": "a653827e61bc99dede243090b60639b5",
+    "semantic_hash": "a653827e61bc99dede243090b60639b5"
+  },
+  "img/Mesas Comunales.jfif.jpeg": {
+    "mtime": 1791689681.600947,
+    "seen": 1791738467.5568247,
+    "ast_hash": "53647198a933727476beca9ad0d5f9ca",
+    "semantic_hash": "53647198a933727476beca9ad0d5f9ca"
+  },
+  "img/Patio.jfif.jpeg": {
+    "mtime": 1791689674.3147676,
+    "seen": 1791738467.5568256,
+    "ast_hash": "37a312f673d0bc89d4aa66eb74d950b2",
+    "semantic_hash": "37a312f673d0bc89d4aa66eb74d950b2"
+  },
+  "img/Sala de Barriles.jfif.jpeg": {
+    "mtime": 1791689712.4319222,
+    "seen": 1791738467.5568268,
+    "ast_hash": "35555921b5e8c88b09378ef2f35c0900",
+    "semantic_hash": "35555921b5e8c88b09378ef2f35c0900"
+  },
+  "img/Sala de Fermentacion.jfif.jpeg": {
+    "mtime": 1791689715.008309,
+    "seen": 1791738467.5568283,
+    "ast_hash": "74efdd285e74c76079e1bb588752f408",
+    "semantic_hash": "74efdd285e74c76079e1bb588752f408"
+  },
+  "img/paseo/parada-0.webp": {
+    "mtime": 1791695434.7719476,
+    "seen": 1791738467.5568292,
+    "ast_hash": "a4c91d3c06bfcacb99ec2a3b0323f62e",
+    "semantic_hash": "a4c91d3c06bfcacb99ec2a3b0323f62e"
+  },
+  "img/paseo/parada-1.webp": {
+    "mtime": 1791695434.9414225,
+    "seen": 1791738467.5568304,
+    "ast_hash": "3d1318e05b96c167d63619174cd5cfe5",
+    "semantic_hash": "3d1318e05b96c167d63619174cd5cfe5"
+  },
+  "img/paseo/parada-2.webp": {
+    "mtime": 1791695435.103556,
+    "seen": 1791738467.5568316,
+    "ast_hash": "e9bedfe391f0e730a26a8ca3f841f685",
+    "semantic_hash": "e9bedfe391f0e730a26a8ca3f841f685"
+  },
+  "img/paseo/parada-3.webp": {
+    "mtime": 1791695435.2401755,
+    "seen": 1791738467.5568326,
+    "ast_hash": "a6702c0e3e5d453260d98803341df4a3",
+    "semantic_hash": "a6702c0e3e5d453260d98803341df4a3"
+  },
+  "img/paseo/parada-4.webp": {
+    "mtime": 1791695435.516965,
+    "seen": 1791738467.5568337,
+    "ast_hash": "24e83be5322264ed3aa6b66002fb5507",
+    "semantic_hash": "24e83be5322264ed3aa6b66002fb5507"
+  },
+  "img/paseo/parada-5.webp": {
+    "mtime": 1791695435.7264462,
+    "seen": 1791738467.5568347,
+    "ast_hash": "10be5afd8c9ae0faf666fab553849c59",
+    "semantic_hash": "10be5afd8c9ae0faf666fab553849c59"
+  },
+  "img/paseo/parada-6.webp": {
+    "mtime": 1791695435.932342,
+    "seen": 1791738467.556836,
+    "ast_hash": "54548df9e5ba0bf313a2569c03ed00a0",
+    "semantic_hash": "54548df9e5ba0bf313a2569c03ed00a0"
+  },
+  "img/webp/0-entrada-960.webp": {
+    "mtime": 1791689806.6589098,
+    "seen": 1791738467.5568368,
+    "ast_hash": "aa2c5c1a6ab340978161030954f5ecec",
+    "semantic_hash": "aa2c5c1a6ab340978161030954f5ecec"
+  },
+  "img/webp/0-entrada.webp": {
+    "mtime": 1791689806.369724,
+    "seen": 1791738467.5568378,
+    "ast_hash": "c93b0d90c7c6778835ff601dcdecb108",
+    "semantic_hash": "c93b0d90c7c6778835ff601dcdecb108"
+  },
+  "img/webp/1-barra-grifos-960.webp": {
+    "mtime": 1791689807.7497404,
+    "seen": 1791738467.556839,
+    "ast_hash": "7c11c0a3e3c0ce20bd655dc4ebd2d37a",
+    "semantic_hash": "7c11c0a3e3c0ce20bd655dc4ebd2d37a"
+  },
+  "img/webp/1-barra-grifos.webp": {
+    "mtime": 1791689807.482785,
+    "seen": 1791738467.55684,
+    "ast_hash": "963dcfbe69deb5c751a1fcb47d65eeba",
+    "semantic_hash": "963dcfbe69deb5c751a1fcb47d65eeba"
+  },
+  "img/webp/2-mesas-comunales-960.webp": {
+    "mtime": 1791689808.8162003,
+    "seen": 1791738467.556841,
+    "ast_hash": "51045c957d372df4d6797936b17db8ba",
+    "semantic_hash": "51045c957d372df4d6797936b17db8ba"
+  },
+  "img/webp/2-mesas-comunales.webp": {
+    "mtime": 1791689808.5746067,
+    "seen": 1791738467.556842,
+    "ast_hash": "cd8b5ccd3ebb1ec1a75cd4aec6b65d3d",
+    "semantic_hash": "cd8b5ccd3ebb1ec1a75cd4aec6b65d3d"
+  },
+  "img/webp/3-sala-fermentacion-960.webp": {
+    "mtime": 1791689810.1566365,
+    "seen": 1791738467.556843,
+    "ast_hash": "fb5573af538f77c6cb94afd16612ef65",
+    "semantic_hash": "fb5573af538f77c6cb94afd16612ef65"
+  },
+  "img/webp/3-sala-fermentacion.webp": {
+    "mtime": 1791689809.910778,
+    "seen": 1791738467.5568442,
+    "ast_hash": "a4584d07aed5357bb2903340b3782e74",
+    "semantic_hash": "a4584d07aed5357bb2903340b3782e74"
+  },
+  "img/webp/4-sala-barriles-960.webp": {
+    "mtime": 1791689811.1685839,
+    "seen": 1791738467.5568454,
+    "ast_hash": "f75010b166207dca47c5961394c730ca",
+    "semantic_hash": "f75010b166207dca47c5961394c730ca"
+  },
+  "img/webp/4-sala-barriles.webp": {
+    "mtime": 1791689810.9516373,
+    "seen": 1791738467.5568464,
+    "ast_hash": "c039da241ff640d7d10aacb499774de0",
+    "semantic_hash": "c039da241ff640d7d10aacb499774de0"
+  },
+  "img/webp/5-mesa-cata-960.webp": {
+    "mtime": 1791689812.0835898,
+    "seen": 1791738467.5568473,
+    "ast_hash": "2f762584fd2b44c683f726aa654b2396",
+    "semantic_hash": "2f762584fd2b44c683f726aa654b2396"
+  },
+  "img/webp/5-mesa-cata.webp": {
+    "mtime": 1791689811.8710759,
+    "seen": 1791738467.5568483,
+    "ast_hash": "2bb3e27c58547c21bef16b05f2dbd66f",
+    "semantic_hash": "2bb3e27c58547c21bef16b05f2dbd66f"
+  },
+  "img/webp/6-patio-960.webp": {
+    "mtime": 1791689813.1636627,
+    "seen": 1791738467.5568497,
+    "ast_hash": "908e13da38aab0c983276c41a50abbbe",
+    "semantic_hash": "908e13da38aab0c983276c41a50abbbe"
+  },
+  "img/webp/6-patio.webp": {
+    "mtime": 1791689812.9317043,
+    "seen": 1791738467.5568514,
+    "ast_hash": "a2e2473e539abdec371fa3e569379d40",
+    "semantic_hash": "a2e2473e539abdec371fa3e569379d40"
+  },
+  "vd/clips-originales/Barra de grifos  a Mesas comunales.mp4": {
+    "mtime": 1791692331.05092,
+    "seen": 1791738467.5568526,
+    "ast_hash": "a572d76add2d134f511085dd70d61b53",
+    "semantic_hash": "a572d76add2d134f511085dd70d61b53"
+  },
+  "vd/clips-originales/Entrada a Barra de grifos.mp4": {
+    "mtime": 1791691988.980041,
+    "seen": 1791738467.5568538,
+    "ast_hash": "24914312a22c8c0a490c2ace52cb0304",
+    "semantic_hash": "24914312a22c8c0a490c2ace52cb0304"
+  },
+  "vd/clips-originales/Mesa de cata \u2192 Patio.mp4": {
+    "mtime": 1791692685.1348333,
+    "seen": 1791738467.556856,
+    "ast_hash": "860d8e6bf79d8645a8364243c342b4e6",
+    "semantic_hash": "860d8e6bf79d8645a8364243c342b4e6"
+  },
+  "vd/clips-originales/Mesas comunales \u2192 Sala de fermentaci\u00f3n.mp4": {
+    "mtime": 1791693633.0568874,
+    "seen": 1791738467.556857,
+    "ast_hash": "fb2380747f180beeb4ac418ec9f57b06",
+    "semantic_hash": "fb2380747f180beeb4ac418ec9f57b06"
+  },
+  "vd/clips-originales/Sala de barriles \u2192 Mesa de cata.mp4": {
+    "mtime": 1791692565.8686519,
+    "seen": 1791738467.5568585,
+    "ast_hash": "3b6b9d05da4f643f871966d0bd9ef640",
+    "semantic_hash": "3b6b9d05da4f643f871966d0bd9ef640"
+  },
+  "vd/clips-originales/Sala de fermentaci\u00f3n \u2192 Sala de barriles.mp4": {
+    "mtime": 1791693280.3228638,
+    "seen": 1791738467.55686,
+    "ast_hash": "fde15fabe7e98e259a69e1e24d52c99a",
+    "semantic_hash": "fde15fabe7e98e259a69e1e24d52c99a"
+  },
+  "vd/gemini_generated_video_cdaee2d7.mp4": {
+    "mtime": 1791691234.668654,
+    "seen": 1791738467.556861,
+    "ast_hash": "8d9c02974a2e5ae3cb3a384a4043049e",
+    "semantic_hash": "8d9c02974a2e5ae3cb3a384a4043049e"
+  },
+  "vd/paseo-video-unico.mp4": {
+    "mtime": 1791691388.166335,
+    "seen": 1791738467.556862,
+    "ast_hash": "1a3f289f3f263d16ca4f826416a5ec00",
+    "semantic_hash": "1a3f289f3f263d16ca4f826416a5ec00"
+  },
+  "video/paseo-1.mp4": {
+    "mtime": 1791695395.5625591,
+    "seen": 1791738467.5568686,
+    "ast_hash": "5a19a053b19e30a58382c9266652055b",
+    "semantic_hash": "5a19a053b19e30a58382c9266652055b"
+  },
+  "video/paseo-2.mp4": {
+    "mtime": 1791695403.601913,
+    "seen": 1791738467.55687,
+    "ast_hash": "70286cc25a6d957ebfa0564915b212c4",
+    "semantic_hash": "70286cc25a6d957ebfa0564915b212c4"
+  },
+  "video/paseo-3.mp4": {
+    "mtime": 1791695407.5041642,
+    "seen": 1791738467.556871,
+    "ast_hash": "4e36b391cd2c371ee3d49096dc545ac2",
+    "semantic_hash": "4e36b391cd2c371ee3d49096dc545ac2"
+  },
+  "video/paseo-4.mp4": {
+    "mtime": 1791695411.8277044,
+    "seen": 1791738467.5568721,
+    "ast_hash": "c25e42cb4728262c1f030cf32d69dfec",
+    "semantic_hash": "c25e42cb4728262c1f030cf32d69dfec"
+  },
+  "video/paseo-5.mp4": {
+    "mtime": 1791695419.1173575,
+    "seen": 1791738467.5568733,
+    "ast_hash": "e44defcf689128788aed4d1dfa70d9b6",
+    "semantic_hash": "e44defcf689128788aed4d1dfa70d9b6"
+  },
+  "video/paseo-6.mp4": {
+    "mtime": 1791695426.8468106,
+    "seen": 1791738467.5568745,
+    "ast_hash": "403816c9afe2d59f790a407e11c9c11a",
+    "semantic_hash": "403816c9afe2d59f790a407e11c9c11a"
+  }
+}

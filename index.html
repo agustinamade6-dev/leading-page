@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Fermento 47 · Cervecería artesanal</title>
+  <meta name="description" content="Fermento 47 es una cervecería artesanal con fábrica propia: 24 grifos, catas guiadas y un patio abierto hasta la 01:00. Sitio de prueba con un negocio ficticio.">
+  <meta name="robots" content="noindex">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fermento 47 · Cervecería artesanal">
+  <meta property="og:description" content="Cerveza fresca del tanque a tu vaso. Recorre la fábrica con el scroll.">
+  <meta property="og:image" content="img/paseo/parada-0.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#131209">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="img/paseo/parada-0.webp?v=4" fetchpriority="high">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23e39b3b'/%3E%3Ctext x='16' y='21' font-family='sans-serif' font-size='14' font-weight='700' text-anchor='middle' fill='%23131209'%3E47%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=6">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <!-- ---------- Cabecera: píldora flotante (en móvil, menú que se abre a pantalla completa) ---------- -->
+  <header class="cabecera">
+    <a href="#inicio" class="marca" aria-label="Fermento 47, volver al inicio">
+      <span class="marca-sello">47</span>
+      <span>Fermento</span>
+    </a>
+    <nav aria-label="Principal">
+      <ul class="nav-enlaces">
+        <li><a href="#cervezas" data-nav>Cervezas</a></li>
+        <li><a href="#experiencias" data-nav>Experiencias</a></li>
+        <li><a href="#preguntas" data-nav>Preguntas</a></li>
+      </ul>
+    </nav>
+    <a href="#reservar" class="boton boton-sm cabecera-cta">Reservar mesa</a>
+    <button class="hamburguesa" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-movil" data-menu-boton>
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="menu-movil" id="menu-movil" data-menu hidden>
+    <ul>
+      <li><a href="#cervezas" data-menu-enlace>Cervezas</a></li>
+      <li><a href="#experiencias" data-menu-enlace>Experiencias</a></li>
+      <li><a href="#preguntas" data-menu-enlace>Preguntas</a></li>
+      <li><a href="#reservar" class="boton" data-menu-enlace>Reservar mesa</a></li>
+    </ul>
+  </div>
+
+  <main id="contenido">
+
+    <!-- ---------- Paseo por la cervecería: lo monta scroll-world.js (skill scroll-world) ---------- -->
+    <section class="mundo" id="inicio" aria-label="Paseo por Fermento 47">
+      <div id="world"></div>
+      <noscript>
+        <div class="mundo-sin-js">
+          <img src="img/paseo/parada-0.webp" alt="Entrada de la cervecería: puertas de acero y vidrio, mesas largas de roble y al fondo la barra de grifos de cobre" width="1280" height="720">
+          <div>
+            <p class="etiqueta">Cervecería con fábrica propia</p>
+            <h1>Cerveza fresca del tanque a tu vaso</h1>
+            <p class="bajada">Hacemos la cerveza a diez metros de tu mesa. Te la servimos el mismo día que sale del tanque.</p>
+            <a href="#reservar" class="boton">Reservar mesa</a>
+          </div>
+        </div>
+      </noscript>
+    </section>
+
+    <!-- Todo lo que va después del paseo tapa el escenario fijo del motor -->
+    <div class="contenido">
+
+      <!-- ---------- Frase principal: las palabras se iluminan al hacer scroll ---------- -->
+      <section class="seccion frase">
+        <p class="frase-texto" data-palabras>Sin intermediarios entre el tanque y tu vaso. Por eso aquí la cerveza sabe como debe saber.</p>
+      </section>
+
+      <!-- ---------- Cervezas ---------- -->
+      <section class="seccion" id="cervezas" aria-labelledby="cervezas-titulo">
+        <div class="contenedor">
+          <header class="seccion-cabecera" data-reveal>
+            <p class="etiqueta">De la casa</p>
+            <h2 id="cervezas-titulo">Seis fijas en la barra</h2>
+            <p class="bajada">Las otras 18 rotan cada semana. Estas no se mueven.</p>
+          </header>
+
+          <ul class="cervezas">
+            <li class="cerveza" data-reveal style="--color: #e8b54a">
+              <span class="cerveza-color" aria-hidden="true"></span>
+              <h3>Patio Rubia</h3>
+              <p class="cerveza-estilo">Helles lager</p>
+              <p>Limpia y ligera. La que pides primero mientras decides.</p>
+              <dl class="cerveza-datos"><div><dt>Alcohol</dt><dd>4,8 %</dd></div><div><dt>IBU</dt><dd>19</dd></div></dl>
+            </li>
+            <li class="cerveza" data-reveal style="--color: #d98c2b; --d: 80ms">
+              <span class="cerveza-color" aria-hidden="true"></span>
+              <h3>Grifo 12</h3>
+              <p class="cerveza-estilo">West Coast IPA</p>
+              <p>Pino, pomelo y un amargor seco que se queda.</p>
+              <dl class="cerveza-datos"><div><dt>Alcohol</dt><dd>6,7 %</dd></div><div><dt>IBU</dt><dd>62</dd></div></dl>
+            </li>
+            <li class="cerveza" data-reveal style="--color: #a8452a; --d: 160ms">
+              <span class="cerveza-color" aria-hidden="true"></span>
+              <h3>Ladrillo</h3>
+              <p class="cerveza-estilo">Irish red ale</p>
+              <p>Caramelo tostado, cuerpo medio y final seco.</p>
+              <dl class="cerveza-datos"><div><dt>Alcohol</dt><dd>5,3 %</dd></div><div><dt>IBU</dt><dd>27</dd></div></dl>
+            </li>
+            <li class="cerveza" data-reveal style="--color: #f0c868">
+              <span class="cerveza-color" aria-hidden="true"></span>
+              <h3>Trigo Alto</h3>
+              <p class="cerveza-estilo">Hefeweizen</p>
+              <p>Plátano, clavo y una espuma que no se va.</p>
+              <dl class="cerveza-datos"><div><dt>Alcohol</dt><dd>5,1 %</dd></div><div><dt>IBU</dt><dd>13</dd></div></dl>
+            </li>
+            <li class="cerveza" data-reveal style="--color: #2a1a12; --d: 80ms">
+              <span class="cerveza-color" aria-hidden="true"></span>
+              <h3>Turno de Noche</h3>
+              <p class="cerveza-estilo">Oatmeal stout</p>
+              <p>Café, cacao y avena. Cremosa sin pesar.</p>
+              <dl class="cerveza-datos"><div><dt>Alcohol</dt><dd>6,1 %</dd></div><div><dt>IBU</dt><dd>34</dd></div></dl>
+            </li>
+            <li class="cerveza" data-reveal style="--color: #6b2e1a; --d: 160ms">
+              <span class="cerveza-color" aria-hidden="true"></span>
+              <h3>Nueve Meses</h3>
+              <p class="cerveza-estilo">Imperial stout en barrica</p>
+              <p>Nueve meses en barrica de vino tinto. Para compartir.</p>
+              <dl class="cerveza-datos"><div><dt>Alcohol</dt><dd>10,4 %</dd></div><div><dt>IBU</dt><dd>48</dd></div></dl>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ---------- Experiencias ---------- -->
+      <section class="seccion" id="experiencias" aria-labelledby="experiencias-titulo">
+        <div class="contenedor experiencias">
+          <div class="experiencias-foto" data-reveal>
+            <picture>
+              <source media="(max-width: 768px)" srcset="img/webp/5-mesa-cata-960.webp">
+              <img src="img/webp/5-mesa-cata.webp" alt="Mesa de cata de roble con seis vasos de cerveza, de la más clara a la más oscura, bajo una lámpara cálida" width="1920" height="1072" loading="lazy">
+            </picture>
+          </div>
+
+          <div>
+            <header class="seccion-cabecera" data-reveal>
+              <p class="etiqueta">Experiencias</p>
+              <h2 id="experiencias-titulo">Más que una ronda</h2>
+            </header>
+
+            <ul class="planes">
+              <li class="plan" data-reveal>
+                <div>
+                  <h3>Cata guiada</h3>
+                  <p>Seis cervezas de la casa con quien las hace. 60 minutos.</p>
+                </div>
+                <p class="plan-precio">21 €<span>por persona</span></p>
+              </li>
+              <li class="plan" data-reveal style="--d: 80ms">
+                <div>
+                  <h3>Visita a la fábrica y cata</h3>
+                  <p>Entras detrás del vidrio, pruebas del tanque y terminas en la mesa de cata. 90 minutos.</p>
+                </div>
+                <p class="plan-precio">29 €<span>por persona</span></p>
+              </li>
+              <li class="plan" data-reveal style="--d: 160ms">
+                <div>
+                  <h3>Barril para tu grupo</h3>
+                  <p>20 litros de la cerveza que elijas y mesa reservada para hasta 12 personas.</p>
+                </div>
+                <p class="plan-precio">189 €<span>por grupo</span></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- Cómo funciona ---------- -->
+      <section class="seccion" aria-labelledby="pasos-titulo">
+        <div class="contenedor">
+          <header class="seccion-cabecera" data-reveal>
+            <p class="etiqueta">Cómo funciona</p>
+            <h2 id="pasos-titulo">Tres pasos hasta la primera pinta</h2>
+          </header>
+          <ol class="pasos">
+            <li data-reveal><span class="paso-numero">1</span><h3>Reserva</h3><p>Elige día y cuántos sois. Te confirmamos al momento por email.</p></li>
+            <li data-reveal style="--d: 80ms"><span class="paso-numero">2</span><h3>Llega</h3><p>Te esperamos en la mesa. Si vienes a una cata, empieza a la hora en punto.</p></li>
+            <li data-reveal style="--d: 160ms"><span class="paso-numero">3</span><h3>Brinda</h3><p>Pide en la barra o en la mesa. Si no sabes qué elegir, te damos a probar.</p></li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ---------- Preguntas frecuentes ---------- -->
+      <section class="seccion" id="preguntas" aria-labelledby="preguntas-titulo">
+        <div class="contenedor contenedor-estrecho">
+          <header class="seccion-cabecera" data-reveal>
+            <p class="etiqueta">Preguntas</p>
+            <h2 id="preguntas-titulo">Lo que nos preguntan antes de venir</h2>
+          </header>
+          <div class="faq-lista" data-reveal>
+            <details class="faq">
+              <summary>¿Hace falta reservar?<svg class="faq-icono" viewBox="0 0 256 256" aria-hidden="true"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></svg></summary>
+              <p>Para grupos de hasta 5 personas no. Para 6 o más, para las catas y para el barril, sí.</p>
+            </details>
+            <details class="faq">
+              <summary>¿Puedo cancelar la reserva?<svg class="faq-icono" viewBox="0 0 256 256" aria-hidden="true"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></svg></summary>
+              <p>Sí, gratis hasta 2 horas antes. Contesta al email de confirmación y la liberamos.</p>
+            </details>
+            <details class="faq">
+              <summary>¿Tienen cerveza sin alcohol?<svg class="faq-icono" viewBox="0 0 256 256" aria-hidden="true"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></svg></summary>
+              <p>Sí. Siempre hay una sin alcohol de la casa en grifo, además de refrescos artesanales y kombucha.</p>
+            </details>
+            <details class="faq">
+              <summary>¿Hay comida?<svg class="faq-icono" viewBox="0 0 256 256" aria-hidden="true"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></svg></summary>
+              <p>Una carta corta pensada para acompañar: tablas, bocadillos y algo dulce. Cocina abierta hasta las 23:30.</p>
+            </details>
+            <details class="faq">
+              <summary>¿Puedo ir con niños?<svg class="faq-icono" viewBox="0 0 256 256" aria-hidden="true"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></svg></summary>
+              <p>Sí, hasta las 21:00. Las catas y la visita a la fábrica son solo para mayores de edad.</p>
+            </details>
+            <details class="faq">
+              <summary>¿Aceptan perros?<svg class="faq-icono" viewBox="0 0 256 256" aria-hidden="true"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></svg></summary>
+              <p>En el patio sí, y les ponemos agua. Dentro del salón no, por la fábrica.</p>
+            </details>
+            <details class="faq">
+              <summary>¿Puedo llevarme cerveza a casa?<svg class="faq-icono" viewBox="0 0 256 256" aria-hidden="true"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></svg></summary>
+              <p>Rellenamos growlers de 1 y 2 litros con cualquier cerveza de los grifos. El envase lo puedes traer o comprarlo aquí.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- Llamada final: reserva ---------- -->
+      <section class="seccion final" id="reservar" aria-labelledby="reservar-titulo">
+        <div class="contenedor contenedor-estrecho">
+          <header class="seccion-cabecera centrada" data-reveal>
+            <p class="etiqueta">Reservar</p>
+            <h2 id="reservar-titulo">La próxima ronda la sirve el tanque</h2>
+            <p class="bajada">Martes a domingo, de 17:00 a 01:00.</p>
+          </header>
+
+          <form class="reserva" data-reserva novalidate data-reveal>
+            <div class="campo">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" autocomplete="name" required>
+              <p class="campo-error" data-error></p>
+            </div>
+            <div class="campo">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+              <p class="campo-error" data-error></p>
+            </div>
+            <div class="campo">
+              <label for="fecha">Día</label>
+              <input id="fecha" name="fecha" type="date" required>
+              <p class="campo-error" data-error></p>
+            </div>
+            <div class="campo">
+              <label for="personas">Personas</label>
+              <select id="personas" name="personas" required>
+                <option value="">Elige</option>
+                <option>2</option><option>3</option><option>4</option><option>5</option>
+                <option>6</option><option>8</option><option>10</option><option>12</option>
+              </select>
+              <p class="campo-error" data-error></p>
+            </div>
+            <div class="reserva-pie">
+              <button type="submit" class="boton reserva-enviar">Reservar mesa</button>
+              <p class="reserva-garantia">
+                <svg viewBox="0 0 256 256" aria-hidden="true"><path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"/></svg>
+                Cancelas gratis hasta 2 horas antes
+              </p>
+            </div>
+            <p class="reserva-estado" data-estado role="status"></p>
+          </form>
+        </div>
+      </section>
+
+      <footer class="pie">
+        <div class="contenedor pie-grid">
+          <div>
+            <a href="#inicio" class="marca">
+              <span class="marca-sello">47</span>
+              <span>Fermento</span>
+            </a>
+            <p class="pie-aviso">Sitio de prueba. Fermento 47 es un negocio ficticio y las imágenes están generadas con IA.</p>
+          </div>
+          <address>
+            Calle del Lúpulo 47 <br>
+            Martes a domingo, 17:00 a 01:00
+          </address>
+          <ul class="pie-enlaces">
+            <li><a href="#cervezas" class="enlace">Cervezas</a></li>
+            <li><a href="#experiencias" class="enlace">Experiencias</a></li>
+            <li><a href="legal.html#privacidad" class="enlace">Privacidad</a></li>
+            <li><a href="legal.html#terminos" class="enlace">Términos</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </main>
+
+  <script src="scroll-world.js?v=6"></script>
+  <script src="script.js?v=6" defer></script>
+</body>
+</html>
